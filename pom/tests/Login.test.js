@@ -1,15 +1,28 @@
 import {Selector, t} from 'testcafe'
 import loginPage from '../pages/LoginPage'
-import { CREDENTIALS } from '../data/Constants'
+import mainPage from '../pages/MainPage'
+import { CREDENTIALS, URLS } from '../data/Constants'
+import { STANDARD_USER } from '../data/Roles'
 
 fixture('Login feature test')
 .page `https://todoist.com/users/showlogin`
 
 test('As a user, I should be able to log in successfully by providing valid credentials', async t => {
-    await t
-        .typeText(loginPage.usernameInput, CREDENTIALS.STANDARD_USER.USERNAME)
-        .typeText(loginPage.passwordInput, CREDENTIALS.STANDARD_USER.PASSWORD)
-        .click(loginPage.loginButton)
-        .expect(Selector('.view_header__content').innerText).contains('Today')
-
+    await t.useRole(STANDARD_USER)
+    await t.expect(mainPage.title.exists).ok()
 })
+
+test('As a user, I should be able to log in successfully by providing valid credentials', async t => {
+   await t.useRole(INCORRECT_USER)
+   await t.expect(mainPage.title.exists).notOk()
+})
+
+test('As a user, I should be able to log in successfully by providing valid credentials', async t => {
+    await t.useRole(INCORRECT_PASSWORD)
+    await t.expect(mainPage.title.exists).notOk()
+ })
+
+ test('As a user, I should be able to log in successfully by providing valid credentials', async t => {
+    await t.useRole(EMPTY_DATA)
+    await t.expect(mainPage.title.exists).notOk()
+ })

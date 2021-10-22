@@ -4,7 +4,8 @@
   "description": "test automation bootcamp",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./pom/tests"
+    "test": "testcafe chrome ./pom/tests",
+    "test-login-dual-browser": "testcafe safari,chrome ./pom/tests/Login.test.js"
   },
   "author": "",
   "license": "ISC",
