@@ -8,12 +8,14 @@ class LoginPage{
 
     }
 
+
     async submitLoginForm(username, password){
-        await t
-        .typeText(this.usernameInput, username)
-        .typeText(this.passwordInput, password)
-        .click(this.loginButton)
-    }
+            await t
+            .typeText(this.usernameInput, username)
+            .typeText(this.passwordInput, password)
+            .click(this.loginButton)
+
+        }
 }
 
 export default new LoginPage

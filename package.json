@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "testcafe chrome ./pom/tests",
-    "test-login-dual-browser": "testcafe safari,chrome ./pom/tests/Login.test.js"
+    "test-login-dual-browser": "testcafe all ./pom/tests/Login.test.js --skip-js-errors" 
   },
   "author": "",
   "license": "ISC",
