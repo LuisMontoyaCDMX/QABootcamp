@@ -4,8 +4,10 @@
   "description": "test automation bootcamp",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./pom/tests",
-    "test-login-dual-browser": "testcafe all ./pom/tests/Login.test.js --skip-js-errors" 
+    "test-login": "testcafe chrome ./pom/tests/Login.test.js",
+    "test-tasks": "testcafe chrome ./pom/tests/Task.test.js",
+    "test-login-dual-browser": "testcafe all ./pom/tests/Login.test.js --skip-js-errors",
+    "smoke-test": "testcafe chrome ./pom/tests/Task.test.js -test--meta smokeTest=true"
   },
   "author": "",
   "license": "ISC",
