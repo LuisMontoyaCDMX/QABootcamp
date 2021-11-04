@@ -1,0 +1,206 @@
+[
+  {
+    "description": "Login feature test",
+    "elements": [
+      {
+        "id": "ScenarioAs a user, I should be able to log in successfully by providing valid credentials",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I should be able to log in successfully by providing valid credentials",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1:0"
+            },
+            "name": "As a user, I should be able to log in successfully by providing valid credentials",
+            "result": {
+              "duration": 19039,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I should be able to log in successfully by providing valid credentials</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I am NOT be able to log in with and invalid username",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I am NOT be able to log in with and invalid username",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1:0"
+            },
+            "name": "As a user, I am NOT be able to log in with and invalid username",
+            "result": {
+              "duration": 3928,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I am NOT be able to log in with and invalid username</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I am NOT able to log in with an invalid password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I am NOT able to log in with an invalid password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1:0"
+            },
+            "name": "As a user, I am NOT able to log in with an invalid password",
+            "result": {
+              "duration": 4599,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I am NOT able to log in with an invalid password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I am NOT able to log in without entering an username or password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I am NOT able to log in without entering an username or password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1:0"
+            },
+            "name": "As a user, I am NOT able to log in without entering an username or password",
+            "result": {
+              "duration": 3014,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I am NOT able to log in without entering an username or password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login feature test",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "95.0.4638.69"
+      },
+      "device": "macOS",
+      "platform": {
+        "name": "osx",
+        "version": "10.15.7"
+      },
+      "reportTime": "2021-11-04T22:51:56.076Z",
+      "startTime": "2021-11-04T22:51:25.460Z"
+    },
+    "name": "Login feature test",
+    "runInfo": {
+      "endTime": "2021-11-04T22:51:56.076Z",
+      "passed": 4,
+      "startTime": "2021-11-04T22:51:25.460Z",
+      "testCount": 4,
+      "userAgents": [
+        "Chrome 95.0.4638.69 / macOS 10.15.7"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@log"
+      },
+      {
+        "line": 0,
+        "name": "@without"
+      },
+      {
+        "line": 0,
+        "name": "@entering"
+      },
+      {
+        "line": 0,
+        "name": "@username"
+      },
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@successfully"
+      },
+      {
+        "line": 0,
+        "name": "@providing"
+      },
+      {
+        "line": 0,
+        "name": "@valid"
+      },
+      {
+        "line": 0,
+        "name": "@credentials"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      }
+    ],
+    "uri": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1"
+  }
+]

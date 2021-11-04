@@ -1,0 +1,438 @@
+[
+  {
+    "description": "Login feature test",
+    "elements": [
+      {
+        "id": "ScenarioAs a user, I should be able to log in successfully by providing valid credentials",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I should be able to log in successfully by providing valid credentials",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1:0"
+            },
+            "name": "As a user, I should be able to log in successfully by providing valid credentials",
+            "result": {
+              "duration": 9633,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I should be able to log in successfully by providing valid credentials</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I am NOT be able to log in with and invalid username",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I am NOT be able to log in with and invalid username",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1:0"
+            },
+            "name": "As a user, I am NOT be able to log in with and invalid username",
+            "result": {
+              "duration": 2808,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I am NOT be able to log in with and invalid username</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I am NOT able to log in with an invalid password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I am NOT able to log in with an invalid password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1:0"
+            },
+            "name": "As a user, I am NOT able to log in with an invalid password",
+            "result": {
+              "duration": 2739,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I am NOT able to log in with an invalid password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I am NOT able to log in without entering an username or password",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I am NOT able to log in without entering an username or password",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1:0"
+            },
+            "name": "As a user, I am NOT able to log in without entering an username or password",
+            "result": {
+              "duration": 1610,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I am NOT able to log in without entering an username or password</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login feature test",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "95.0.4638.69"
+      },
+      "device": "macOS",
+      "platform": {
+        "name": "osx",
+        "version": "10.15.7"
+      },
+      "reportTime": "2021-11-04T23:23:17.471Z",
+      "startTime": "2021-11-04T23:21:50.085Z"
+    },
+    "name": "Login feature test",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@log"
+      },
+      {
+        "line": 0,
+        "name": "@without"
+      },
+      {
+        "line": 0,
+        "name": "@entering"
+      },
+      {
+        "line": 0,
+        "name": "@username"
+      },
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@invalid"
+      },
+      {
+        "line": 0,
+        "name": "@successfully"
+      },
+      {
+        "line": 0,
+        "name": "@providing"
+      },
+      {
+        "line": 0,
+        "name": "@valid"
+      },
+      {
+        "line": 0,
+        "name": "@credentials"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      }
+    ],
+    "uri": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Login.test.js:1"
+  },
+  {
+    "description": "Tasks tests",
+    "elements": [
+      {
+        "id": "ScenarioAs a user, I should be able to add a new Task with Today as the due date",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I should be able to add a new Task with Today as the due date",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Task.test.js:1:0"
+            },
+            "name": "As a user, I should be able to add a new Task with Today as the due date",
+            "result": {
+              "duration": 5488,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I should be able to add a new Task with Today as the due date</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I should be able to add a new Task with Tomorrow as the due date",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I should be able to add a new Task with Tomorrow as the due date",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Task.test.js:1:0"
+            },
+            "name": "As a user, I should be able to add a new Task with Tomorrow as the due date",
+            "result": {
+              "duration": 6908,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I should be able to add a new Task with Tomorrow as the due date</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I should be able to add multiple Tasks with Today as the due date",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I should be able to add multiple Tasks with Today as the due date",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Task.test.js:1:0"
+            },
+            "name": "As a user, I should be able to add multiple Tasks with Today as the due date",
+            "result": {
+              "duration": 16659,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I should be able to add multiple Tasks with Today as the due date</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I should be able to add a new Project",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I should be able to add a new Project",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Task.test.js:1:0"
+            },
+            "name": "As a user, I should be able to add a new Project",
+            "result": {
+              "duration": 7968,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I should be able to add a new Project</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioAs a user, I should be able to delete all of the tasks",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "As a user, I should be able to delete all of the tasks",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Task.test.js:1:0"
+            },
+            "name": "As a user, I should be able to delete all of the tasks",
+            "result": {
+              "duration": 33502,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">As a user, I should be able to delete all of the tasks</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Tasks tests",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "95.0.4638.69"
+      },
+      "device": "macOS",
+      "platform": {
+        "name": "osx",
+        "version": "10.15.7"
+      },
+      "reportTime": "2021-11-04T23:23:17.471Z",
+      "startTime": "2021-11-04T23:21:50.085Z"
+    },
+    "name": "Tasks tests",
+    "runInfo": {
+      "endTime": "2021-11-04T23:23:17.470Z",
+      "passed": 9,
+      "startTime": "2021-11-04T23:21:50.085Z",
+      "testCount": 9,
+      "userAgents": [
+        "Chrome 95.0.4638.69 / macOS 10.15.7"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@delete"
+      },
+      {
+        "line": 0,
+        "name": "@all"
+      },
+      {
+        "line": 0,
+        "name": "@tasks"
+      },
+      {
+        "line": 0,
+        "name": "@add"
+      },
+      {
+        "line": 0,
+        "name": "@new"
+      },
+      {
+        "line": 0,
+        "name": "@project"
+      },
+      {
+        "line": 0,
+        "name": "@multiple"
+      },
+      {
+        "line": 0,
+        "name": "@today"
+      },
+      {
+        "line": 0,
+        "name": "@due"
+      },
+      {
+        "line": 0,
+        "name": "@date"
+      },
+      {
+        "line": 0,
+        "name": "@task"
+      },
+      {
+        "line": 0,
+        "name": "@tomorrow"
+      },
+      {
+        "line": 0,
+        "name": "@tests"
+      }
+    ],
+    "uri": "/Users/luis.cuauhtemoc/QABootcamp2/pom/tests/Task.test.js:1"
+  }
+]

@@ -6,13 +6,20 @@
   "scripts": {
     "test-login": "testcafe chrome ./pom/tests/Login.test.js",
     "test-tasks": "testcafe chrome ./pom/tests/Task.test.js",
-    "test-login-dual-browser": "testcafe all ./pom/tests/Login.test.js --skip-js-errors",
-    "smoke-test": "testcafe chrome ./pom/tests/Task.test.js -test--meta smokeTest=true"
+    "test-login-dual-browser": "testcafe chrome:headless,safari:headless ./pom/tests/Login.test.js --skip-js-errors",
+    "smoke-test": "testcafe chrome ./pom/tests --test-meta type=smoke",
+    "test-report": "testcafe chrome ./pom/tests --skip-js-errors --reporter cucumber-json --reporter-json-folder=./pom/Reports/jsonResults",
+    "generate-report": "node report-generator.js"
   },
-  "author": "",
+  "author": "luis.cuauhtemoc@wizeline.com",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "testcafe": "^1.16.1"
+    "testcafe": "^1.16.1",
+    "testcafe-reporter-cucumber-json": "^6.3.0",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
   }
 }
